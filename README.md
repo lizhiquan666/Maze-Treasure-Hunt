@@ -23,20 +23,20 @@ This is a simple Python-based game built using the `pygame` library. The game in
    ```
    
 ## Game Controls:
--**Arrow Keys**: Move the penguin (left, right, up, down).
--**R Key**: Reset the game.
--**M Key**: Toggle background music.
+- **Arrow Keys**: Move the penguin (left, right, up, down).
+- **R Key**: Reset the game.
+- **M Key**: Toggle background music.
 
 ## License:
 This project is licensed under the Apache License 2.0
 . You can freely use, modify, and distribute this code, with patent rights protection.
 
 Please refer to the LICENSE file for more details：
-**（http://www.apache.org/licenses/LICENSE-2.0）**
+**(http://www.apache.org/licenses/LICENSE-2.0)**
 
 ## Acknowledgments:
 Special thanks to the following for their contributions:
-**[Gao Ruihan]**,**[Li Zhiquan]**, and **[Zheng Dengyuan]** for their contributions to the development of this project.
+**Gao Ruihan**,**Li Zhiquan** and **Zheng Dengyuan** for their contributions to the development of this project.
 ```bibtex
 @misc{zhang2026motionlora,
   author       = {Xueli Zhang},
@@ -46,7 +46,7 @@ Special thanks to the following for their contributions:
   note         = {GitHub repository}
 }
 ```
-We would like to extend our sincere gratitude to **[Zhang Xueli]** for her support to this project.
+We would like to extend our sincere gratitude to **Zhang Xueli** for her support to this project.
 
 ## References:
 If you use this project, please cite the following works:
