@@ -1,16 +1,42 @@
-# 忽略所有mp3音频文件（兼容大小写）
+# 忽略音频文件（兼容大小写）
 *.mp3
 *.MP3
+# 忽略MP3相关临时/备份文件
+*~.mp3
+*.mp3.bak
 
-# 忽略所有PPT/PPTX演示文稿文件（兼容大小写）
+# 忽略PPT/PPTX演示文稿（兼容大小写）
 *.ppt
 *.PPT
 *.pptx
 *.PPTX
-
-# 可选：忽略办公软件生成的临时/备份文件（避免冗余追踪）
+# 忽略PPT/PPTX临时/备份文件
 *~.ppt
 *~.pptx
 *.ppt.bak
 *.pptx.bak
-*~.mp3
+
+# ========== 通用补充规则（建议保留） ==========
+# 忽略操作系统临时文件
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN
+# macOS
+.DS_Store
+._*
+# Linux
+*~
+.fuse_hidden*
+
+# 忽略编辑器生成的临时文件
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# 忽略办公软件通用临时文件（适配更多办公套件）
+*.tmp
+*.temp
+*.bak
+*.backup
