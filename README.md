@@ -1,42 +1,63 @@
-⭐ 如果项目对您有帮助，欢迎Star！
-# Maze Treasure Hunt Game
-This is a simple Python-based game built using the `pygame` library. The game involves a penguin navigating a maze to collect coins and avoid obstacles. It includes background music, a win condition, and a reset option.
+# 🐧 Maze Treasure Hunt (迷宫寻宝)
 
-## Features:
-- **Game Mechanics**: Move the penguin around using the arrow keys.
-- **Objective**: Collect coins while avoiding obstacles.
-- **Reset**: Press the "R" key to reset the game.
-- **Music Control**: Press the "M" key to toggle background music.
+⭐ If this project is helpful to you, please give it a Star! 
 
-## Installation:
-1. Clone the repository:
+## 📖 Introduction
+**Maze Treasure Hunt** is a fun and interactive 2D maze navigation game built with Python and the `pygame` library. Players control a little penguin navigating through a dynamically generated maze, aiming to collect scattered gold coins while avoiding static obstacles. The game ends when the penguin successfully reaches the target (a 520 rose 🌹) at the bottom-right corner!
+
+## ✨ Key Features
+- **Dynamic Maze Generation**: Generates a randomized maze layout layout using graph traversal algorithms. no two games are exactly the same!
+- **Smooth Animations**: Enjoy silky-smooth pixel-based movement mechanics and rotating coin animations.
+- **State Machine Architecture**: Clean transitions between "Instructions", "Playing", and "Game Over" screens.
+- **Audio Experience**: Includes togglable background funk music and celebratory win sounds.
+- **Dynamic Game Over Screen**: Features a shrinking/expanding penguin animation upon successfully completing the maze.
+
+## 🚀 Installation & Setup
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/lizhiquan666/Maze-Treasure-Hunt.git
    ```
-2. Install dependencies:
+2. **Install dependencies**:
+   Ensure you have Python installed, then install the required libraries:
    ```bash
-   pip install pygame
+   pip install pygame numpy
    ```
-3. Run the game:
+3. **Run the game**:
+   Navigate to the game directory and execute the main Python script:
    ```bash
-   python main.py
+   cd pygame
+   python python源程序.py
    ```
    
-## Game Controls:
-- **Arrow Keys**: Move the penguin (left, right, up, down).
-- **R Key**: Reset the game.
-- **M Key**: Toggle background music.
+## 🎮 Game Controls
+- **Arrow Keys (`←`, `→`, `↑`, `↓`)**: Move the penguin across the maze.
+- **`R` Key**: Instantly reset the game (creates a new maze and resets the score).
+- **`M` Key**: Toggle background music on / off.
 
-## License:
-This project is licensed under the Apache License 2.0
-. You can freely use, modify, and distribute this code, with patent rights protection.
+## 🛠️ Project Structure
+```text
+Maze-Treasure-Hunt/
+├── pygame/                     # Main game directory
+│   ├── python源程序.py          # Main game script & logic
+│   ├── Funky Town.mp3          # Background music(not included)
+│   ├── Wang Fei.mp3            # Victory music(not included)
+│   ├── *.png / *.jpg           # Image assets (penguin, coins, obstacles, etc.)
+├── README.md                   # This documentation file
+└── LICENSE                     # Apache 2.0 License file
+```
 
-Please refer to the LICENSE file for more details：
-**(http://www.apache.org/licenses/LICENSE-2.0)**
+## 📄 License
+This project is licensed under the Apache License 2.0. You can freely use, modify, and distribute this code, with patent rights protection.
 
-## Acknowledgments:
-Special thanks to the following for their contributions:
-**Gao Ruihan**,**Li Zhiquan** and **Zheng Dengyuan** for their contributions to the development of this project.
+Please refer to the [LICENSE](http://www.apache.org/licenses/LICENSE-2.0) file for more details.
+
+## 🙏 Acknowledgments
+Special thanks to the following students for their contributions to the development of this project:
+- **Gao Ruihan**
+- **Li Zhiquan** 
+- **Zheng Dengyuan**
+
+We would also like to extend our sincere gratitude to **Zhang Xueli** for her support to this project.
 ```bibtex
 @misc{zhang2026motionlora,
   author       = {Xueli Zhang},
@@ -46,10 +67,9 @@ Special thanks to the following for their contributions:
   note         = {GitHub repository}
 }
 ```
-We would like to extend our sincere gratitude to **Zhang Xueli** for her support to this project.
 
-## References:
-If you use this project, please cite the following works:
+## 📚 References
+If you use this project for your own research or coursework, please cite the following work:
 ```bibtex
 @misc{lizhiquan2026mazetreasurehunt,
   author       = {Li Zhiquan},
@@ -60,5 +80,5 @@ If you use this project, please cite the following works:
 }
 ```
 
-## Disclaimer:
-This repository is provided for academic and research purposes only. Use it in accordance with the Apache 2.0 License.
+## ⚠️ Disclaimer
+This repository is provided for academic, recreational, and research purposes only. Use it in accordance with the Apache 2.0 License.
